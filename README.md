@@ -58,7 +58,7 @@
 
 > 深色表示准确率较高的超参数组合
 
-![验证集准确率热力图](image/Figure_1.png)
+![验证集准确率热力图](https://raw.githubusercontent.com/Jiaojiao-jiaojiao/Homework/main/image/Figure_1.png)
 在正则化参数不变的条件下，准确率较高的一组是：学习率为1e-1，隐藏层大小为256。
 
 ---
@@ -72,7 +72,7 @@
 
 ### 损失下降曲线 + 验证准确率趋势
 
-![训练损失曲线 + 验证准确率曲线](image/Figure_2.png)
+![训练损失曲线 + 验证准确率曲线](https://raw.githubusercontent.com/Jiaojiao-jiaojiao/Homework/main/image/Figure_2.png)
 
 > 损失函数下降明显，验证集准确率上升趋稳，模型逐渐收敛，显示模型泛化良好。
 
@@ -82,7 +82,7 @@
 
 我们将第一隐藏层中部分神经元的权重向量 `(3072,)` 重新 reshape 成 `(3, 32, 32)` 并显示为 RGB 图像。
 
-![隐藏层权重可视化](image/Figure_3.png)
+![隐藏层权重可视化](https://raw.githubusercontent.com/Jiaojiao-jiaojiao/Homework/main/image/Figure_3.png)
 
 > 神经元权重图展示了不同感受野：有的偏向边缘，有的偏向颜色块，说明模型具备基础图像感知能力。
 
@@ -96,7 +96,7 @@
 
 ### 测试结果可视化图表
 
-![测试集评估图](image/Figure_4.png)
+![测试集评估图](https://raw.githubusercontent.com/Jiaojiao-jiaojiao/Homework/main/image/Figure_4.png)
 
 ---
 
