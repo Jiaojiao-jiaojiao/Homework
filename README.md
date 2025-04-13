@@ -16,23 +16,11 @@
 
 ---
 
-##  项目文件结构
-
-```bash
-.
-├── model.py               # 神经网络结构实现
-├── data_loader.py         # CIFAR-10 数据加载模块
-├── train.py               # 模型训练脚本
-├── test.py                # 模型测试脚本
-├── best_model.pkl         # 训练过程中保存的最佳模型参数
-├── best_model_curves.pkl  # 记录训练曲线数据（loss, acc）
-├── cifar-10-batches-py/   # CIFAR-10 数据集（需提前解压）
-├── image                  # 项目相关图像
-└── README.md              # 项目说明文档
+## 项目文件结构
 
 ---
 
-## **模型结构**
+##  模型结构
 
 - 输入层：3072（32×32×3）
 - 隐藏层 ：支持不同大小（64、128、256）+ ReLU 
